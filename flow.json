@@ -1,7 +1,4 @@
 {
-	"contracts": {
-		"BottomShot": "./contracts/BottomShot.cdc"
-	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
 		"mainnet": "access.mainnet.nodes.onflow.org:9000",
@@ -11,7 +8,7 @@
 	"accounts": {
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
-			"key": "2c21af68fc05d1bb3b1b56a17c800c786c507809cb13dac7d26f5528a997604f"
+			"key": "095f123fb3dccbc023f7cf1ac8585a703b190cb0ae5a83eac8ff8b4e20640861"
 		}
 	}
 }

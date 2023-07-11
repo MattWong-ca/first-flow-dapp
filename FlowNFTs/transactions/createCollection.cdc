@@ -3,7 +3,7 @@ import BottomShot from 0xf8d6e0586b0a20c7
 transaction {
   
   prepare(acct: AuthAccount) {
-                                                // I changed the storage address here
+    // I changed the storage address here
     acct.save(<- BottomShot.createCollection(), to: /storage/BottomShot2)
     
     // We're linking two resources in different storage domains
@@ -12,6 +12,6 @@ transaction {
   }
   
   execute {
-    log("Stored a collection for our NUTTY empty NFTs")
+    log("Stored a collection for our empty NFTs")
   }
 }

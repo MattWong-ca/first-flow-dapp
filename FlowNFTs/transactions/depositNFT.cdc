@@ -9,7 +9,7 @@ transaction {
 
     collectionReference.deposit(token: <- BottomShot.mintNFT())
   }
-
+  
   execute {
     log("Minted an NFT and stored it into the collection")
   }
