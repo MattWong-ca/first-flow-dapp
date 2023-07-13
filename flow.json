@@ -1,4 +1,7 @@
 {
+	"contracts": {
+		"BottomShot": "./FlowNFTs/contracts/BottomShot.cdc"
+	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
 		"mainnet": "access.mainnet.nodes.onflow.org:9000",
@@ -9,6 +12,17 @@
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
 			"key": "095f123fb3dccbc023f7cf1ac8585a703b190cb0ae5a83eac8ff8b4e20640861"
+		},
+		"testnet-account": {
+			"address": "0x990bf8fe740942e2",
+			"key": "076515fa32d017a4b0540c36ebdbafda7617098fb3b03946ab93f216403febb8"
+		}
+	},
+	"deployments": {
+		"testnet": {
+			"testnet-account": [
+				"BottomShot"
+			]
 		}
 	}
 }
