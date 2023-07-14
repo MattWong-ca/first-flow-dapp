@@ -1,7 +1,7 @@
 export const mintNFT = 
 `
 // REPLACE THIS WITH YOUR CONTRACT NAME + ADDRESS
-import BottomShot from 0x7b6adb682517f137 
+import BottomShot from 0x990bf8fe740942e2  
 // This remains the same 
 import NonFungibleToken from 0x631e88ae7f1d7c20
 
