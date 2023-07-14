@@ -1,6 +1,7 @@
 {
 	"contracts": {
-		"BottomShot": "./FlowNFTs/contracts/BottomShot.cdc"
+		"BottomShot": "./FlowNFTs/contracts/BottomShot.cdc",
+		"BirdBlock": "./FlowNFTs/contracts/BirdBlock.cdc"
 	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
@@ -21,7 +22,7 @@
 	"deployments": {
 		"testnet": {
 			"testnet-account": [
-				"BottomShot"
+				"BirdBlock"
 			]
 		}
 	}
