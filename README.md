@@ -11,6 +11,10 @@ error: panic: Could not get receiver reference to the NFT Collection` but retrie
 - With Blocto: `DEPRECATION NOTICE Received FCL::CHALLENGE::RESPONSE, please use FCL:VIEW:RESPONSE for this and future versions of FCL`. When I try to log in and click confirm, nothing happens afterwards.
 - Not Flow related: I kept getting "The git repository has too many active changes, only a subset of Git features will be enabled", turns out forgot to add a .gitignore
 
+### Note
+- Everyone has the ability to mint and we're passing in the NFT metadata from the frontend
+- Better way: use [NFTMinter resource](https://github.com/onflow/flow-nft/blob/master/contracts/ExampleNFT.cdc) and store IPFS hash on contract + increment file number using Cadence so people can't mint all sorts of NFTs
+
 # Links
 - [Deployed contracts](https://flow-view-source.com/testnet/account/0x990bf8fe740942e2)
 - [First txn](https://testnet.flowscan.org/transaction/1e581cdec6821e8785b0fad13ab61777c0c93624c9c9ef02fd31e6719109e43a) (Blocto)
