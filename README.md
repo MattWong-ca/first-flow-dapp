@@ -1,4 +1,4 @@
-# Common Problems
+# Friction Log
 - Location of `flow.json` file. Not sure if it should be in root (first-flow-dapp) or FlowNFTs, but placing it in root seems to be working
 - When running `flow emulator`, it would default connect to `Alice` account, needed to switch it manually to `Emulator-account`
 - Got many errors when opening the repo up for first time. Needed to go to NonFungibleToken.cdc and deploy there first, then BottomShot.cdc, and finally mintNFT.cdc (since they're dependent on each other)
@@ -10,6 +10,8 @@ error: panic: Could not get receiver reference to the NFT Collection` but retrie
 - First successful attempt was actually with Blocto, but it stopped working, rest of successful attempts were with Lilico
 - With Blocto: `DEPRECATION NOTICE Received FCL::CHALLENGE::RESPONSE, please use FCL:VIEW:RESPONSE for this and future versions of FCL`. When I try to log in and click confirm, nothing happens afterwards.
 - Not Flow related: I kept getting "The git repository has too many active changes, only a subset of Git features will be enabled", turns out forgot to add a .gitignore
+- Need to create a destory button to delete NFTs
+- It keeps printing out only the fourth NFT, not incrementing correctly
 
 ### Note
 - Everyone has the ability to mint and we're passing in the NFT metadata from the frontend
