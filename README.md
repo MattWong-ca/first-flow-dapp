@@ -12,6 +12,7 @@ error: panic: Could not get receiver reference to the NFT Collection` but retrie
 - Not Flow related: I kept getting "The git repository has too many active changes, only a subset of Git features will be enabled", turns out forgot to add a .gitignore
 - Need to create a destory button to delete NFTs
 - It keeps printing out only the fourth NFT, not incrementing correctly
+- Vercel wasn't working because I needed to switch framework from Other --> React, and add `frontend` as root directory
 
 ### Note
 - Everyone has the ability to mint and we're passing in the NFT metadata from the frontend
